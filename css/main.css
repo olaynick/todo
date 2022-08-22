@@ -131,7 +131,7 @@ body {
 .btn_clear {
   cursor: pointer;
   position: absolute;
-  left: 250px;
+  left: 25px;
   bottom: 18px;
   display: block;
   width: 180px;
