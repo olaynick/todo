@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css"/>
+	<title>ToDo приложение</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="display-4"> <img src="img/logo.png" alt="" class="logo"> </div>
+		<!-- List of tasks -->
+		<div class="card">
+			<ul id="tasksList" class="list-group list-group-flush">
+			</ul>
+		</div>
+		<!-- //List of tasks -->
+
+		<!-- Form -->
+		<div class="card bg-light" >
+			<div class="card-header">добавить новую задачу</div>
+			<div class="card-body">
+				<form id="form">
+					<div class="form-group">
+						<input type="text" class="form-control" id="taskInput" placeholder="Текст задачи" required>
+						<small id="emailHelp" class="form-text text-muted">что делаем, сколько времени тратим, какой результат получаем.</small>
+					</div>
+					<div class="buttons">					
+
+						<button type="submit" class="btn">Добавить</button>
+					</div>
+
+				</form>
+				<button id="clearBtn" type="submit" class="btn_clear">Удалить выполненные</button>
+			</div>
+		</div>
+		<!-- //Form  -->
+		<!-- <button id="removeDoneTasks" class="btn btn-secondary mt-4 float-right">Удалить выполненные задачи</button> -->
+
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
